@@ -3,7 +3,7 @@ with customers as (
         customer_id,
         first_name,
         last_name
-    from "jaffle_shop"."customers"
+    from "dbt"."results-20200218-150256"
 )
 
-select * from "jaffle_shop"."customers"
+select * from "dbt"."results-20200218-150256"
