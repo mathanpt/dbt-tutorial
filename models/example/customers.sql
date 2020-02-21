@@ -3,7 +3,7 @@ with customers as (
         customer_id,
         first_name,
         last_name
-    from customers
+    from dbt_customers
 )
 
-select * from customers
+select * from dbt_customers
