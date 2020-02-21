@@ -4,7 +4,7 @@ select
     user_id as customer_id,
     order_date,
     status
-    from "orders"
+    from orders
 )
 
-select * from "orders"
+select * from orders
